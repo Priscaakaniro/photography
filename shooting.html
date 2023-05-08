@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Making a favicon for my browser-->
+    <link rel="icon" type="image/x-icon" href="./favicon/android-chrome-192x192.png">    
+    <!--linking the css stylesheet and JavaScript -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="web.js"></script>
+<title>CAMERA LENS</title>
+</head>
+<body>
+<header>
+    <h1 class="logo"> L E N S</h1>
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <!--linking the other pages together-->
+    <div class="overlay-content">
+    <a href="HomePage.html">HOMEPAGE </a>
+    <a href="photography.html">PHOTOGRAPHY </a>
+    <a href="subject.html">SUBJECT</a>
+    <a href="composition.html">COMPOSITION</a>
+    <a class = "active" href="shooting.html">RAW</a>
+    <a href="light.html">LIGHT</a>
+    <a href="more.html">MORE</a>
+    </div>
+    </div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span id = "menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</header><br><br>
+
+<h1 id="txt">shooting in RAW</h1>
+<div class="raw"> </div>
+
+<div class="content"><p>
+    When taking a picture with a digital camera, you can either shoot in manual (raw format) or auto mode (jpeg format).
+    When shooting in auto, the camera automatically decides what the appropriate settings would be before you take the shot. <br>
+    When shooting in raw on the other hand, the camera is in manual mode, <br>
+    and you have to decide the level of light you want to include in your picture,<br>
+    how fast you want the picture taken, basically, you must
+    set everything up yourself based on how you want the final picture to look like.<br><br>
+    <b>What is RAW?</b>
+    Raw images are large and uncompressed files that keep all the details of your shot. 
+    Shooting a picture in raw gives you (the photographer) 
+    the liberty to edit to your taste as it offers a great amount of details on the image(s) you shoot.<br><br></p></div>
+    <div class="rest"><p class="camera">
+    The 3 main camera settings you need to implement when shooting in raw are:<br>
+    <b>Aperture:</b> this means the opening of the camera lens.
+    It affects directly, the amount of light entering your photo. <br>
+    This setting determines the exposure of the photo, its depth of field, sharpness and overall final look of the picture.<br><br>
+    <b>ISO:</b> this also is influenced by light. It increases the level of light information captured by the camera sensor (noise level).<br><br>
+    <b>Shutter speed:</b> measured in seconds, is the length of time the camera is open and capturing light.<br>
+    It is directly affected by motion and steadiness, so consider using a tripod when shooting your pictures, for a steady photo. <br></p>
+</div>
+
+<div class="video">
+    <video width="1350" height="700" controls>
+        <source src="./VIDEO/evan bts.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+      </video>
+</div>
+
+<footer> 
+    <p class="name">©️ Ngozi Prisca Akaniro 2022</p>
+    <p class="icon"><a href="https://www.instagram.com/prsscaa/"><img  id = "Icon"  src="./JPGS/instagram.png"></a>
+    <a href="https://twitter.com/AkaniroPrisca"><img id = "Icon"   src="./JPGS/twitter.png"></a>
+    <a href="https://goo.gl/maps/m7KnTiEqFgmbF6Me8"><img  id = "Icon"  src="./JPGS/location.png"></a></p>
+</footer>
+</body>
+</html>

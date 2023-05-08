@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Making a favicon for my browser-->
+    <link rel="icon" type="image/x-icon" href="./favicon/android-chrome-192x192.png">
+    <!--linking the css stylesheet and JavaScript -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="web.js"></script>
+<title>CAMERA LENS</title>
+</head>
+<body>
+<header>
+    <h1 class="logo"> L E N S</h1>
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <!--linking the other pages together-->
+    <div class="overlay-content">
+    <a href="HomePage.html">HOMEPAGE </a>
+    <a class = "active" href="photography.html">PHOTOGRAPHY </a>
+    <a href="subject.html">SUBJECT</a>
+    <a href="composition.html">COMPOSITION</a>
+    <a href="shooting.html">RAW</a>
+    <a href="light.html">LIGHT</a>
+    <a href="more.html">MORE</a>
+    </div>
+    </div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span id = "menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</header><br><br>
+<h1 id="txt">What is photography?</h1>
+<div class="marina"> </div>
+
+<div class="content">
+    <p>Photography in simple terms, is the act of capturing light, either digitally (via a digital camera or a phone), <br>
+    or with film (with a film camera), to produce a photograph.
+    <br>
+    There are numerous reasons why people take photos, it could be for business reasons,
+    a hobby, or for keepsake. <br> </p> </div>
+    <div class="rest">
+    <p id="photography">For whatever reason anyone takes pictures for, the primary reason is clear.
+    <b><em> For storytelling.</em></b> <br>
+    Photographs are a way of telling a story, it is also the perfect way to go back in time and relieve moments from the past.<br>
+    There are several types of photography: portraits, landscape, wildlife etc.<br></p>
+</div>
+
+<div class="video">
+    <video width="1350" height="700" controls>
+        <source src="./VIDEO/marina shoot.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+      </video>
+</div>
+
+<footer> 
+    <p class="name">©️ Ngozi Prisca Akaniro 2022</p>
+    <p class="icon"><a href="https://www.instagram.com/prsscaa/"><img  id = "Icon"  src="./JPGS/instagram.png"></a>
+    <a href="https://twitter.com/AkaniroPrisca"><img id = "Icon"   src="./JPGS/twitter.png"></a>
+    <a href="https://goo.gl/maps/m7KnTiEqFgmbF6Me8"><img  id = "Icon"  src="./JPGS/location.png"></a></p>
+</footer>
+</body>
+</html>
