@@ -1,0 +1,135 @@
+/*Styling the homepage*/
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #fff;
+    font-family: poppins;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    font-family: poppins;
+    font-style: italic;
+    margin-left: 100px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: 0.2s;
+    padding: 50px 10px;
+}
+
+.blur {
+    position: relative;
+}
+
+.blur h3{
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-left: 200px;
+    opacity: 0;
+    transition: .3s;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: poppins;
+    font-style: italic;
+
+}
+
+.blur h3:hover {
+    opacity: 1;
+}
+
+.blur:hover img {
+    filter: blur(3px) brightness(50%);
+}
+
+/*styling the icons*/
+.socials p {
+    margin-right: 200px;
+    float: right;
+    
+}
+
+.socials a {
+    margin-right: 50px;
+}
+
+.jpg{
+    width: 500px;
+    margin-left: 100px;
+}
+
+#Icon{
+    width:25px;
+}
+
+/*making a responsive image grid*/
+.hide{
+    display: none;
+}
+
+.row{
+    margin-left: 150px;
+    margin-top: 300px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    margin-right: 180px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 150%;
+    margin-right: 100px;
+}
+
+/*Responsive website*/
+@media screen and (max-width: 800px){
+    .column{
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/*making the columns stack instead of side by side*/
+@media screen and (max-width: 600px){
+    .column{
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+/*styling the footer*/
+
+footer{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    margin-top: 100px;
+    margin-left: 1000px;
+}
+
+.name {
+    margin-left: 700px;
+    margin-bottom: -70px;
+}
